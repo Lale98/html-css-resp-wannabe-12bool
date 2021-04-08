@@ -31,6 +31,42 @@
 
 /* XS */
 @media screen and (max-width: 767px) {
+
+    footer,
+    header {
+        background-color: #F2F2CD;
+    }
+
+    .title {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    img {
+        margin-top: 20px;
+        height: 100px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    hr {
+        width: 96%;
+    }
+
+    footer img {
+        height: 100px;
+        padding: 10px 15px;
+        border-radius: 50%;
+        background-color: #428BCA;
+    }
+
     .col-xs-1 {
         width: calc((100% / 12) * 1);
     }
@@ -106,6 +142,43 @@
 
 /* MD */
 @media screen and (max-width: 991px) and (min-width: 768px) {
+
+    main,
+    footer {
+        background-color: #F9F9F9;
+    }
+
+    .title {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+
+    img {
+        margin-top: 20px;
+        height: 160px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    hr {
+        width: 95%;
+    }
+
+    footer img {
+        margin-top: 50px;
+        height: 200px;
+        padding: 20px 30px;
+        border-radius: 50%;
+        background-color: #428BCA;
+    }
+
     .col-md-1 {
         width: calc((100% / 12) * 1);
     }
@@ -182,6 +255,44 @@
 
 /* LG */
 @media screen and (min-width: 992px) {
+
+
+    main,
+    footer {
+        background-color: #F9F9F9;
+    }
+
+    .title {
+        margin-top: 80px;
+        font-size: 25px;
+    }
+
+    img {
+        margin-top: 20px;
+        height: 200px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    hr {
+        max-width: 1170px;
+    }
+
+    footer img {
+        margin-top: 80px;
+        height: 260px;
+        padding: 20px 30px;
+        border-radius: 50%;
+        background-color: #428BCA;
+    }
+
     .col-lg-1 {
         width: calc((100% / 12) * 1);
     }
