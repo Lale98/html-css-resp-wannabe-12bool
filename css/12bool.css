@@ -13,12 +13,12 @@
     padding: 0; 
 }
 
-.conteiner::after {
+.container::after {
     content: "";
     display: table;
     clear: both;
 }
-.conteiner {
+.container {
     max-width: 1170px;
     margin: 0 auto;
 }

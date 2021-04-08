@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+main,
+footer {
+  background-color: #F9F9F9;
+}
+
+[class*="col-"] {
+  padding: 5px;
+}
+
+.title {
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+img {
+  margin-top: 20px;
+  height: 200px;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 17px;
+}
+  
+footer img {
+  margin-top: 80px;
+  height: 260px;
+  padding: 20px 30px;
+  border-radius: 50%;
+  background-color: #428BCA;
+}
+
+hr {
+  max-width: 1170px;
+  margin: 5px auto;
+  border: 1px solid #000;
+}
